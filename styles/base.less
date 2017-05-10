@@ -14,17 +14,8 @@
   float: right;
 }
 
-// tweak: { "type" : "dropdown", "title" : "Site Width", "options" : [ "Narrow", "Wide", "Full" ], "default" : "Narrow" }
-
-.narrow .site-container {
-  width: 700px;
-}
-.wide .site-container {
-  width: 1200px;
-}
-.full .site-container {
-  width: 100%;
-}
+// tweak: { "type" : "value", "title" : "Page Width", "min" : 500, "max" : 1400 }
+@pageWidth: 600px;
 
 
 
@@ -44,7 +35,7 @@ body {
 .site-container {
   line-height: 1.6em;
   color: #777;
-  max-width: 1020px;
+  width: @pageWidth;
   padding: 6vw;
 
   h1, h2, h3 {
