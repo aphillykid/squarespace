@@ -15,7 +15,18 @@
 }
 
 // tweak: { "type" : "value", "title" : "Page Width", "min" : 500, "max" : 1400 }
-@pageWidth: 600px;
+@pageWidth: 1200px;
+
+// tweak: { "type" : "font", "title" : "Body Font" "target" : "p" }
+.body-font {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 0em;
+  line-height: 1.2em;
+  text-transform: none;
+}
 
 
 
@@ -24,12 +35,7 @@
 ***************************************************/
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont,
-    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
-    "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  font-size: 100%;
-  font-weight: normal;
+  .body-font
 }
 
 .site-container {
