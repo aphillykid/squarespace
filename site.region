@@ -18,10 +18,10 @@
         <!-- site title or logo -->
         {.section website}
           <div class="profile-image"></div>
-          <h1 class="site-title-heading" data-content-field="site-title">
-            <a href="/" class="site-title-link">{siteTitle}</a>
-            <span class="site-tagline">{siteTagLine}</span>
-          </h1>
+          <div class="site-title-heading" data-content-field="site-title">
+            <h1><a href="/" class="site-title-link">{siteTitle}</a></h1>
+            <h2 class="site-tagline">{siteTagLine}</h2>
+          </div>
         {.end}
       </header>
 
