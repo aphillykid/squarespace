@@ -21,6 +21,7 @@
           <h1 class="site-title-heading" data-content-field="site-title">
             <a href="/" class="site-title-link">{siteTitle}</a>
           </h1>
+          <h2 data-content-field="site-tagline">{siteTagLine}</h2>
         {.end}
       </header>
 

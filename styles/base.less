@@ -14,10 +14,10 @@
   float: right;
 }
 
-// tweak: { "type" : "value", "title" : "Page Width", "min" : 500, "max" : 1400 }
+// tweak: { "type" : "value", "title" : "Page Width", "min" : 500, "max" : 1400, "target" : ".site-containter" }
 @pageWidth: 1200px;
 
-// tweak: { "type" : "font", "title" : "Body Font" }
+// tweak: { "type" : "font", "title" : "Body Font", "target" : "p" }
 .body-font {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -32,9 +32,10 @@
 .profile-image {
   background-image: url('');
   background-size: contain;
+  background-repeat: no-repeat;
   width: 75px;
   height: 75px;
-  border-radius: 25px;
+  border-radius: 100%;
   float: left;
 }
 
