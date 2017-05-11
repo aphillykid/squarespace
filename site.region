@@ -19,8 +19,8 @@
         {.section website}
           <div class="profile-avatar"></div>
           <div class="site-title-heading" data-content-field="site-title">
-            <a href="/"><h1 class="site-title-link">{siteTitle}</h1></a>
-            <h2 class="site-tagline">{siteTagLine}</h2>
+            <a href="/" class="site-title-link">{siteTitle}</a>
+            <span class="site-tagline">{siteTagLine}</span>
           </div>
         {.end}
       </header>
