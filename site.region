@@ -8,12 +8,13 @@
     {squarespace-headers}
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
+      
+    <!-- site navigation -->
+    <squarespace:navigation navigationId="siteNav" template="site-navigation" />
 
     <div class="site-container">
 
       <header class="site-header">
-        <!-- site navigation -->
-        <squarespace:navigation navigationId="siteNav" template="site-navigation" />
 
         <!-- site title or logo -->
         {.section website}
