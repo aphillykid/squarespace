@@ -20,8 +20,8 @@
           <div class="profile-image"></div>
           <h1 class="site-title-heading" data-content-field="site-title">
             <a href="/" class="site-title-link">{siteTitle}</a>
+            <span class="site-tagline">{siteTagLine}</span>
           </h1>
-          <h2 data-content-field="site-tagline">{siteTagline}</h2>
         {.end}
       </header>
 
