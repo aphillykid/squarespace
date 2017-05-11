@@ -19,7 +19,7 @@
         {.section website}
           <div class="profile-image"></div>
           <div class="site-title-heading" data-content-field="site-title">
-            <h1><a href="/" class="site-title-link">{siteTitle}</a></h1>
+            <a href="/"><h1 class="site-title-link">{siteTitle}</h1></a>
             <h2 class="site-tagline">{siteTagLine}</h2>
           </div>
         {.end}
